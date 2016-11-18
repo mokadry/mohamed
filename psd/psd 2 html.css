@@ -1,0 +1,510 @@
+*{box-sizing:border-box;}
+
+body{
+   
+}
+
+.slider{
+     height:389px ;   
+}
+
+.slider {background-image:url(FB_IMG_1469165306943.jpg);
+    background-size: cover;
+    padding-top: 150;
+}
+
+.slider h2 {
+    color: #fff;
+    text-align: center;
+    float: none;
+    font-size: 50;
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid #fff;
+    width: 600;
+    margin:auto;
+}
+
+
+.intro{
+    text-align: center;
+    margin:auto 0;
+    height:389;
+}
+
+.intro button{
+    background: none;
+    border:2px solid #fff;
+    font-size: 20;
+    margin: 35;
+    font-weight: bold;
+    color:#fff;
+    padding:15 10;
+    width: 300;
+    cursor: pointer;
+    outline: none;
+}
+
+.con{
+    text-align: center;
+    width:1170;
+    margin: auto;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{color:#2cab62;}
+
+a:active{color:#2cab62;}
+
+.nav .con ul {
+    list-style: none;
+    float: right;
+}
+
+.nav .con ul li {
+    float: left;
+    padding: 15px;
+    padding-bottom: 5px;
+    
+}
+
+.nav{background-color: #252e30;
+     color: white;
+    overflow: hidden;
+}
+
+.nav h2{
+    float: left;    
+}
+
+h2 span{
+    color:#2ecc71;
+    
+}
+
+.momizat{
+    overflow: hidden;
+    width:60%;
+    margin : auto;    
+}
+
+.momizat .feat{
+    float:left;
+    width: 31.33333%;
+    padding-bottom: 30;
+    margin-right: 1%;
+    margin-left: 1%
+}
+
+.momizat h2{
+    color: #656667;
+}
+
+.momizat .feat p {
+    margin-top: -80;
+    line-height: 1.4;
+    color: #888;
+}  
+
+.aboutme {
+    background-color: #e7e7e0;
+    overflow: hidden;
+    
+}
+
+.aboutme h2{
+    margin: 40 0 0 40;
+}
+
+
+.aboutme .image {
+    float: left;
+    width: 40%;
+}
+
+.aboutme .image img {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 0;
+}
+
+.aboutme .info {
+    float: right;
+    width: 60%;
+}
+
+.aboutme .info .hobbies{
+    overflow: hidden;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.aboutme .info .hobbies > div{
+    float:left;
+    width: 50%;
+    
+}
+
+.aboutme h3{
+    margin-left: 22px;
+}
+
+.aboutme p{
+    margin-left: 40;
+}
+.aboutme .hobbies p{
+    margin-left: 23;
+}
+
+.myskills{
+    margin-left:250;
+    margin-bottom: 25;
+    overflow: hidden;
+}
+
+.myskills .skills{
+    width: 50%;
+    float: left;
+}
+
+.myskills .skills h2{
+    color: #555;
+}
+
+.myskills .skills p{
+    color: #919191;
+}
+
+.myskills .skills button{
+    background: none;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    min-width: 30px;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    outline: none;
+}
+
+.myskills .skills button:hover{
+    color:#fff;
+    background-color: #2ecc71
+}
+
+.myskills .progress{
+    width: 45%;
+    float: left;
+    margin-right: 10px;
+}
+
+.myskills .progress .tech div{
+    background-color: #eae7e7;
+    height: 22px;
+}
+
+.myskills .progress .tech span{
+    background-color:#2ecc71;
+    height: 22px;
+    display: block;
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.resume{
+    background-color: #e7e7e5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.resume button{
+    background: none;
+    border: 2px solid #2ecc71;
+    color: #2ecc71;
+    min-width: 30px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.resume button:hover{
+    color:#fff;
+    background-color: #74d338;
+    border:none;
+    padding: 12px 20px 12px 20px;
+}
+
+.resume button:active{
+    background:#2ecc71;
+    color: #fff;
+}
+
+.resume h2{
+    color: #555;
+}
+
+.resume p{
+    color:#666;
+}
+
+.myed{
+    margin-left:250;
+    margin-bottom: 25;
+    overflow: hidden;
+}
+
+.myed .ed{
+    width: 50%;
+    float: left;
+}
+
+ .exp{
+    width: 50%;
+    float: left;
+}
+
+.exp .con{
+    text-align: left;
+    margin-top: 69;
+}
+
+.exp .con h3{
+    margin-bottom: 5;
+    color: #555
+}
+
+.exp .con span:first-of-type{
+    color:#555;
+    display: block;
+}
+
+.exp .con span:last-of-type{
+    color:#fff;
+    background-color:#2ecc71;
+    display: inline-block;
+    margin-top: 5px;
+    padding: 4px 6px 4px 6px
+}
+
+.exp .con hr{
+    background-color: #ccc9c9;
+    border: none;
+    height: 1;
+   
+}
+
+.hr{
+    background-color: #ccc9c9;
+    border: none;
+    height: 1;
+    width: 1000;
+    margin: auto
+}
+
+.mywork{
+    margin-left:250;
+    margin-bottom: 25;
+    overflow: hidden;
+}
+
+.mywork .ed{
+    width: 50%;
+    float: left;
+}
+
+.mywork .exp{
+    width: 50%;
+    float: left;
+}
+
+.exp .con h2{
+    color: #555;
+}
+
+.exp .con p{
+    color: #919191;
+}
+
+.ed h2{
+   color:#555;
+}
+
+.ed p{
+    color: #919191;
+}
+
+.mytext{
+    background-color: #e7e7e5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: ptdark,arail
+}
+
+.mytext ul{
+    list-style: none;
+    padding: 0;
+}
+
+.mytext ul li{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border:2px solid #2ecc71;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.mytext ul li:hover{
+    background-color: #2ecc71;
+}
+
+.mytext ul li.active{
+    background-color: #2ecc71;
+}
+
+.portfolio{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.portfolio h2{
+    color:#444
+}
+
+.portfolio p{
+    color:#777
+}
+
+.portfolio p.m{
+    margin-bottom:70;
+}
+
+.portfolio .ourwork{
+    overflow: hidden;
+    width: 85%;
+    margin: auto;
+    
+}
+
+.portfolio .ourwork > div{
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 15px; 
+}
+
+.portfolio .ourwork > div img{
+    border: 1px solid #ccc;
+    padding: 3px;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.contact{
+    background-color: #252e30;
+    overflow: hidden;
+}
+
+.contact h2{
+    color: #fff;
+    margin-left: 111;
+}
+
+.contact p{
+    color:#919191;
+    margin-left: 111;
+}
+
+.contact p.p{
+    margin-top: 50
+}
+
+.contact strong{
+    color: #fff
+}
+
+.f{
+    margin-top: 55
+}
+
+.contact .form{
+    float: left;
+    width: 45%;
+    margin-right: 50;
+    margin-top: 40
+}
+
+.contact{
+    padding: 40 0
+}
+
+.form label{
+    color: #d4d5d5;
+    font-weight: bold;
+    display: block;
+     margin-bottom: 10;
+}
+
+.form input[type="text"]{
+    width:65%;
+    height: 29px;
+    color: #fff;
+    background-color: #4b5456;
+    border:none;
+    margin-bottom: 25
+}
+
+.form textarea{
+    height: 250;
+    width:65%;
+    color: #fff;
+    background-color: #4b5456;
+    border:none;
+    margin-bottom: 30px;
+}
+
+.form input[type="submit"]{
+    color:#fff;
+    width: 24%;
+    background-color: #191f21;
+    border: 0;
+    padding: 10 0;
+    margin:0px 1000px 0 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.form input[type="submit"]:hover{
+    color: black;
+    background-color: #cacbcb
+}
+
+.contact .info{
+    float: left;
+    width: 50%;
+}
+
+.footer{
+    background-color: #191f21;
+    color: 434b4d;
+    text-align: center;
+    padding: 20px
+}
+
+/*.footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li{
+    display: inline-block;
+    
+}*/
